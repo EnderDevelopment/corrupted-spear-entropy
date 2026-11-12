@@ -1,0 +1,13 @@
+name: GreenSpear
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+commands:
+  spear:
+    description: Gives the green custom spear.
+    usage: /spear
+    permission: greenspear.give
+permissions:
+  greenspear.give:
+    description: Allows the player to receive the green custom spear.
+    default: op
